@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key = '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'
 
 
 def text_complition(prompt: str) -> dict:
